@@ -240,17 +240,7 @@ players_name
 end
 
 
-  def winning_team
-
-    length_name = 0
-
-    game_hash.each do |place, teams_info|
-
-
-    end
-  end
-
-  def winning_team
+  def player_with_longest_name
 
   length_name = 0
   name_players = ""
