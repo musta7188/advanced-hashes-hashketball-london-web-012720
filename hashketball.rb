@@ -302,4 +302,3 @@ if players_info[:steals] > steals
           end
         end
       end
-
