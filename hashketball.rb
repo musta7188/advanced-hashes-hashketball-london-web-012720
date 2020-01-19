@@ -240,6 +240,30 @@ players_name
 end
 
 
+
+def winning_team
+points = 0
+team_nam = ""
+
+game_hash.each do |place, teams_info|
+  teams_info[:players].each do |players_info|
+    if players_info[:points] > points
+      points += players_info[:points]
+       team_nam = teams_info[:team_name]
+
+
+        end
+    end
+  end
+end
+
+
+
+
+
+
+
+
   def player_with_longest_name
 
   length_name = 0
