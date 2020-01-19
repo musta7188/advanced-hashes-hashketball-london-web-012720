@@ -274,7 +274,7 @@ end
  end
 
   end
-
+return name_players
 end
 
 
