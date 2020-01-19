@@ -232,7 +232,7 @@ def most_points_scored
       if teams_info[:points] > points
       points = teams_info[:points]
     if teams_info[:points] === points
-       teams_info[:player_name]
+       puts teams_info[:player_name]
     end
       end
     end
