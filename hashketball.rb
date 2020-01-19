@@ -238,3 +238,32 @@ def most_points_scored
 end
 players_name
 end
+
+
+  def winning_team
+
+    length_name = 0
+
+    game_hash.each do |place, teams_info|
+
+
+    end
+  end
+
+  def winning_team
+
+  length_name = 0
+  name_players = ""
+
+  game_hash.each do |place, teams_info|
+ teams_info[:players].each do |players_info|
+
+   if players_info[:player_name].length > length_name
+     length_name = players_info[:player_name].length
+     name_players =  players_info[:player_name]
+end
+ end
+
+  end
+p name_players
+end
