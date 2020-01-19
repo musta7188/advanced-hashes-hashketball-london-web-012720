@@ -278,8 +278,7 @@ return name_players
 end
 
 
-def long_name_steals_a_ton
-
+def long_name_steals_a_ton?
 steals = 0
 length_name = 0
 longest_name = ""
