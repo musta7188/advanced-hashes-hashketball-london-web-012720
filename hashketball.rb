@@ -255,6 +255,7 @@ game_hash.each do |place, teams_info|
         end
     end
   end
+  return team_nam
 end
 
 
