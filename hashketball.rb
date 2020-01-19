@@ -222,3 +222,19 @@ end
 biggest_shoe
 num_rebounds
 end
+
+def most_points_scored
+
+  points = 0
+
+  game_hash.each do |teams, game_data|
+    game_data[:players].each do |teams_info|
+      if teams_info[:points] > points
+      points = teams_info[:points]
+      teams_info[:player_name]
+      end
+    end
+
+end
+
+end
